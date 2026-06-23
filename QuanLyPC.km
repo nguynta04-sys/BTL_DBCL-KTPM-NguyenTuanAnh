@@ -1,0 +1,152 @@
+{
+    "root": {
+        "data": {
+            "id": "djg2vbe8ee80",
+            "created": 1782182215931,
+            "text": "Chiến lược kiểm thử CDT - Dự án Quản lý PC"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "djg2veiedk00",
+                    "created": 1782182222713,
+                    "text": "Tùy biến theo RẤT RỦI RO",
+                    "layout_mind_offset": {
+                        "x": -279.9999958276749,
+                        "y": -32.99999950826174
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "djg2veuo1940",
+                            "created": 1782182223455,
+                            "text": "Vùng rủi ro cao (Thanh toán, Đăng nhập) -> Test kỹ bằng tay.",
+                            "priority": 1,
+                            "layout_right_offset": {
+                                "x": -31.999999523162955,
+                                "y": -27.999999582767487
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "djg2vnk951c0",
+                            "created": 1782182242416,
+                            "text": "Vùng rủi ro thấp (Xem thông tin, Giao diện) -> Chỉ test nhanh (Ad-hoc)",
+                            "priority": 3,
+                            "layout_right_offset": {
+                                "x": -29.999998718500137,
+                                "y": -1.9999999701976776
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "djg2vjuhg480",
+                    "created": 1782182234328,
+                    "text": "Tùy biến theo NGÂN SÁCH",
+                    "layout_mind_offset": {
+                        "x": -271.9999959468842,
+                        "y": 23.999999642372245
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "djg2voiir540",
+                            "created": 1782182244488,
+                            "text": "Không mua tool -> Dùng Thunder Client (VS Code) miễn phí để test API",
+                            "layout_right_offset": {
+                                "x": -30.999999538064117,
+                                "y": -20.999999687075558
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "djg2vpu9xr40",
+                            "created": 1782182247376,
+                            "text": "Không viết Test Case dài dòng -> Dùng chính Mindmap này để tiết kiệm thời gian",
+                            "layout_right_offset": {
+                                "x": -28.999998062849045,
+                                "y": 2.9999999552965164
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "djg2vl255eg0",
+                    "created": 1782182236968,
+                    "text": "Tùy biến theo ĐỘI NGŨ",
+                    "layout_mind_offset": {
+                        "x": 252.99999623000627,
+                        "y": -38.99999941885483
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "djg2vrudul40",
+                            "created": 1782182251736,
+                            "text": "Ít nhân sự -> Dev và Tester phối hợp kiểm thử chéo (Cross-testing)",
+                            "layout_left_offset": {
+                                "x": 30.99999810755253,
+                                "y": -16.99999974668026
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "djg2vsw8lw80",
+                            "created": 1782182254025,
+                            "text": "Tập trung kiểm thử khám phá (Exploratory Testing) dựa trên trải nghiệm thực tế",
+                            "layout_left_offset": {
+                                "x": 29.99999727308756,
+                                "y": 3.9999999403953552
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "djg2vm1v8u80",
+                    "created": 1782182239128,
+                    "text": "Tùy biến theo THAY ĐỔI YÊU CẦU",
+                    "layout_mind_offset": {
+                        "x": 277.99999585747724,
+                        "y": 40.99999938905239
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "djg2vtwvwg80",
+                            "created": 1782182256241,
+                            "text": "Yêu cầu đổi đến đâu -> Cập nhật trực tiếp nhánh Mindmap đến đó trong 1 phút",
+                            "layout_left_offset": {
+                                "x": 52.99999921023846,
+                                "y": -53.99999919533741
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
